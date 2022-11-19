@@ -21,12 +21,15 @@
 </p>
 
 Вторая работа:
-<img src="graphic/task2.png" width="400"/>
+<p align="center">
+  <img src="graphic/task1.png" width="400"/>
+</p>
 
 Третья работа:
-<img src="graphic/task3.png" width="400"/>
+<p align="center">
+  <img src="graphic/task1.png" width="400"/>
+</p>
 
 
 ## Примечание
-
 Часть курсовой работы
