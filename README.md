@@ -22,12 +22,12 @@
 
 Вторая работа:
 <p align="center">
-  <img src="graphic/task1.png" width="400"/>
+  <img src="graphic/task2.png" width="400"/>
 </p>
 
 Третья работа:
 <p align="center">
-  <img src="graphic/task1.png" width="400"/>
+  <img src="graphic/task3.png" width="400"/>
 </p>
 
 
