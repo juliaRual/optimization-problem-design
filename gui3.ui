@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>554</width>
-    <height>648</height>
+    <width>364</width>
+    <height>637</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,14 +17,14 @@
    <string/>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(246, 255, 251)</string>
+   <string notr="true">background-color: rgb(255, 255, 255)</string>
   </property>
   <widget class="QPushButton" name="pushButton_calculate">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>330</y>
-     <width>471</width>
+     <x>30</x>
+     <y>290</y>
+     <width>301</width>
      <height>51</height>
     </rect>
    </property>
@@ -41,9 +41,10 @@
     <bool>false</bool>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(26, 104, 28);
+    <string notr="true">color: rgb(65, 50, 30);
 border-radius: 12;
-color: rgb(215, 255, 205);
+background-color: rgb(245, 186, 113);
+border: none;
 </string>
    </property>
    <property name="text">
@@ -53,9 +54,9 @@ color: rgb(215, 255, 205);
   <widget class="QLineEdit" name="lineEdit_k1">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>110</y>
-     <width>471</width>
+     <x>260</x>
+     <y>70</y>
+     <width>51</width>
      <height>51</height>
     </rect>
    </property>
@@ -75,8 +76,8 @@ color: rgb(215, 255, 205);
     <string/>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(24, 100, 18);
-border: 2px solid rgb(26, 104, 28);
+    <string notr="true">color: rgb(65, 50, 30);
+border: 2px solid rgb(65, 50, 30);
 border-radius: 25;</string>
    </property>
    <property name="inputMask">
@@ -89,15 +90,15 @@ border-radius: 25;</string>
     <set>Qt::AlignCenter</set>
    </property>
    <property name="placeholderText">
-    <string>значение К1</string>
+    <string>К1</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_k2">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>180</y>
-     <width>471</width>
+     <x>260</x>
+     <y>140</y>
+     <width>51</width>
      <height>51</height>
     </rect>
    </property>
@@ -108,23 +109,23 @@ border-radius: 25;</string>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(24, 100, 18);
-border: 2px solid rgb(26, 104, 28);
+    <string notr="true">color: rgb(65, 50, 30);
+border: 2px solid rgb(65, 50, 30);
 border-radius: 25;</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
    </property>
    <property name="placeholderText">
-    <string>значение К2</string>
+    <string>К2</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_k3">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>250</y>
-     <width>471</width>
+     <x>260</x>
+     <y>210</y>
+     <width>51</width>
      <height>51</height>
     </rect>
    </property>
@@ -135,23 +136,23 @@ border-radius: 25;</string>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(24, 100, 18);
-border: 2px solid rgb(26, 104, 28);
+    <string notr="true">color: rgb(65, 50, 30);
+border: 2px solid rgb(65, 50, 30);
 border-radius: 25;</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
    </property>
    <property name="placeholderText">
-    <string>значение К3</string>
+    <string>К3</string>
    </property>
   </widget>
   <widget class="QTextEdit" name="textEdit_result">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>400</y>
-     <width>471</width>
+     <x>30</x>
+     <y>360</y>
+     <width>301</width>
      <height>191</height>
     </rect>
    </property>
@@ -162,17 +163,17 @@ border-radius: 25;</string>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(24, 100, 18);
-border: 3px solid rgb(26, 104, 28);
+    <string notr="true">color: rgb(65, 50, 30);
+border: 3px solid rgb(65, 50, 30);
 border-radius: 12;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>600</y>
-     <width>471</width>
+     <x>30</x>
+     <y>560</y>
+     <width>301</width>
      <height>31</height>
     </rect>
    </property>
@@ -183,7 +184,7 @@ border-radius: 12;</string>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(24, 100, 18);</string>
+    <string notr="true">color: rgb(65, 50, 30);</string>
    </property>
    <property name="text">
     <string>РЕЗУЛЬТАТ ВЫЧИСЛЕНИЯ</string>
@@ -195,10 +196,10 @@ border-radius: 12;</string>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>60</y>
-     <width>471</width>
-     <height>21</height>
+     <x>40</x>
+     <y>70</y>
+     <width>171</width>
+     <height>211</height>
     </rect>
    </property>
    <property name="font">
@@ -208,23 +209,24 @@ border-radius: 12;</string>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(24, 100, 18);</string>
+    <string notr="true">color: rgb(65, 50, 30);</string>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;РАСЧЕТ ОПТИМАЛЬНОГО КОЛИЧЕСТВА КОМПЬЮТЕРОВ&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;РАСЧЕТ &lt;/p&gt;&lt;p&gt;ОПТИМАЛЬНОГО &lt;/p&gt;&lt;p&gt;КОЛИЧЕСТВА ПК&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;ИмяСтудента&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QFrame" name="frame">
    <property name="geometry">
     <rect>
-     <x>0</x>
+     <x>-20</x>
      <y>0</y>
-     <width>561</width>
+     <width>391</width>
      <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(26, 104, 28);</string>
+    <string notr="true">background-color: rgb(245, 186, 113);
+border: none;</string>
    </property>
    <property name="frameShape">
     <enum>QFrame::StyledPanel</enum>
@@ -232,35 +234,26 @@ border-radius: 12;</string>
    <property name="frameShadow">
     <enum>QFrame::Raised</enum>
    </property>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>10</y>
-      <width>331</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>PT Sans Caption</family>
-      <pointsize>14</pointsize>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="statusTip">
-     <string/>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(215, 255, 205);</string>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ИмяСтудента. Задача №1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>600</y>
+     <width>391</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(245, 186, 113);
+border: none;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
   </widget>
   <zorder>frame</zorder>
   <zorder>pushButton_calculate</zorder>
@@ -270,6 +263,7 @@ border-radius: 12;</string>
   <zorder>textEdit_result</zorder>
   <zorder>label_3</zorder>
   <zorder>label_2</zorder>
+  <zorder>frame_2</zorder>
  </widget>
  <resources/>
  <connections/>
