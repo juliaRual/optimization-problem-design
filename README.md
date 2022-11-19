@@ -13,9 +13,18 @@
 >pyside6-uic gui.ui -o gui.py
 4. Запустить main.py и проверить работоспособность 
 
-## Пример дизайна после ввода данных
+## Пример графического интерфейса
 
-<img src="graphic/task1.png" width="300"/>
+Первая работа:
+<p align="center">
+  <img src="graphic/task1.png" width="400"/>
+</p>
+
+Вторая работа:
+<img src="graphic/task2.png" width="400"/>
+
+Третья работа:
+<img src="graphic/task3.png" width="400"/>
 
 
 ## Примечание
