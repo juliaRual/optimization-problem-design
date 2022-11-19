@@ -15,8 +15,7 @@
 
 ## Пример дизайна после ввода данных
 
-<img src="graphic/task1.png" margin-left: auto;
-    margin-right: auto; width="300"/>
+<img src="graphic/task1.png" width="300"/>
 
 
 ## Примечание
