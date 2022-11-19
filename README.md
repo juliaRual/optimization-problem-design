@@ -17,12 +17,12 @@
 
 Первая работа:
 <p align="center">
-  <img src="graphic/task1.png" width="400"/>
+  <img src="graphic/task1.png" width="500"/>
 </p>
 
 Вторая работа:
 <p align="center">
-  <img src="graphic/task2.png" width="400"/>
+  <img src="graphic/task2.png" width="500"/>
 </p>
 
 Третья работа:
