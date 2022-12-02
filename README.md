@@ -7,11 +7,17 @@
 ## Установка
 
 1. Установить PySide6 или более раннюю версию
->pip3 install pyside6
+```sh
+pip3 install pyside6
+```
 2. Создать графику в Designer 
->pyside6-designer
+```sh
+pyside6-designer
+```
 3. Перейти в папку с проектом и изменить расширение файла c .ui на .py
->pyside6-uic gui.ui -o gui.py
+```sh
+pyside6-uic gui.ui -o gui.py
+```
 4. Запустить main.py и проверить работоспособность 
 
 ## Пример графического интерфейса
